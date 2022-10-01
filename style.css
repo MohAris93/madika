@@ -1,0 +1,445 @@
+*,body {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  gap: 1px;
+  cursor: pointer;
+  transition: all .5s ease 0s;
+}
+.logo:hover {
+  color: orange;
+  transform: rotate(5deg);
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+  
+  .logo-title {
+    margin-left: 10px;
+  }
+
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  background-color: #2E3EED;
+  opacity: 70%;
+  color : white;
+  padding: 20px;
+  
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  list-style-type: none;
+
+}
+
+nav ul li {
+  font-size: 20px;
+}
+
+
+li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.gambar-bg {
+  max-width: 1200px;
+  background-color: #000;
+  
+}
+
+.judul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    color: black;
+    padding: 50px;
+    background-color: #fff;
+    }
+
+.judul1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.judul2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.judul3{
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+
+
+.button{
+  display: flex;
+  
+}
+.button a {
+  border: none;
+  background-image:linear-gradient(#2E3EED,#673ab7);
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+ text-decoration: none;
+}
+
+
+.kakaka{
+  max-width: 1200px;
+  padding: 10px;
+  background-color: white;
+
+}
+
+ .card {
+   
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+   }
+   
+ .oke {
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(blue,blue);
+  color : whitesmoke;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: all .5s ease 0s;
+}
+
+.oke:hover {
+  background-image:linear-gradient(#2E3EED,#42445A);
+  color : yellow;
+    transform: rotate(5deg);
+}
+
+
+ .tulisan {
+   
+   display: flex;
+   flex-direction: column;
+ } 
+ .img {
+   width: 20%;
+   gap: px;
+   
+ }
+ 
+ .tulis1{
+   font-size: 50px;
+ }
+ .tulis2{
+   font-size: 30px;
+ }
+ 
+ .about {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .img1 {
+   width: 100%;
+   
+ }
+ 
+ .img2{
+   width: 35%;
+ }
+  .contal {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 50%;
+   width: 100%;
+   background-color:#fff ;
+   padding: 50px;
+   
+ }
+ 
+ 
+ 
+ 
+ .contact {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 50%;
+   width: 100%;
+   background-color:#2E3EED ;
+   padding: 50px;
+ }
+   
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+
+ }
+ .turuturu {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+ }
+ 
+ .faqs {
+   width: 35%;
+ padding: 10px;
+ text-align: center;
+ background-color: white;
+ border-radius: 10px;
+ box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .cs{
+   width: 50%;
+   height: 50%;
+   
+ }
+ 
+ .cs1{
+   width: 50%;
+   height: 50%;
+   
+ }
+ 
+.papa{
+  color : black;
+  font-size: 10px;
+  font-weight: bold;
+}
+ 
+ .berlangganan {
+  background-color:#fff;
+}
+
+.berak{
+  color : black ;
+  text-align: center;
+  padding: 10px;
+  
+}
+ .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile>img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+.profile>p {
+  font-size: 1.8em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.footer {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.titit {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.link img
+{
+  width: 100%;
+  border-radius: 20px;
+  
+  
+}
+
+@media screen and (max-width: 500px){
+   .faqs {
+   width: 45%;
+   }
+  
+  .papa{
+  color : black;
+  font-size: 5px;
+  font-weight: bold;
+}
+
+  	.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  background-color: #2E3EED;
+  color : white;
+  padding: 20px;
+  
+}
+	
+nav{
+  
+  	
+		width: 100%;
+		z-index: 9;
+	}
+	
+ 
+ 
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  font-size: 5px;
+}
+  .judul1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1px;
+  
+}
+.judul2{
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 1px;
+}
+
+.judul3{
+  font-size: 5px;
+  font-weight: bold;
+  margin-left: 1px;
+}
+
+
+  .button a {
+  border: none;
+  background-image:linear-gradient(#2E3EED,#673ab7);
+  color: #fff;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 10px;
+ text-decoration: none;
+}
+
+ .card {
+   
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+   }
+   
+ .oke {
+  width: 100%;
+ background-image:linear-gradient(#2E3EED,#673ab7);
+  color : white;
+  text-align: center;
+  box-shadow: 2px 5px 5px 1px rgba(0,0,0,0.5);
+}
+
+
+ .tulisan {
+   
+   display: flex;
+   flex-direction: column;
+ } 
+ .img {
+   width: 50px;
+   
+ }
+ 
+ .tulis1{
+   font-size: 20px;
+ }
+ .tulis2{
+   font-size: 10px;
+ }
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-title {
+  font-size: 10px;
+  margin-left: 1px;
+  }
+ 
+
+  
+  }
